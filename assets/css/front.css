@@ -1,0 +1,32 @@
+.pafd-revisions {
+	width: 100%;
+	border: none!important;
+}
+.pafd-revisions .dashicons{
+	vertical-align: middle;
+}
+.pafd-revisions tr td, .pafd-revisions thead tr th {
+	padding: 10px 20px 10px 0;
+	line-height: 33px;
+	border-left: none;
+	border-right: none;
+}
+.pafd-revisions tr td:last-child, .pafd-revisions thead tr th:last-child {
+	padding-right: 0;
+}
+.pafd-revisions tbody tr td{
+	border-bottom: 1px solid #eee; 
+}
+.pafd-revisions thead th {
+	border-top: 1px solid #eee; 
+	border-bottom: 1px solid #eee; 
+}
+.pafd-revisions tbody tr h3 {
+	margin: 30px 0 10px!important;
+	padding: 0;
+}
+.pafd-revisions td img {
+	vertical-align: middle;
+	height: 33px;
+	margin-right: 10px;
+}

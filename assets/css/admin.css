@@ -1,0 +1,61 @@
+.pafd-movable {
+	margin: .125em !important;
+}
+.pafd-movable a {
+	color: #CCC;
+	text-decoration: none;
+}
+.pafd-movable a:hover {
+	color: #000;
+}
+.pafd-movable.button-primary a:hover {
+	color: #FFF;
+}
+.pafd-movable:first-child .pafd-move_up {
+	display: none;
+}
+.pafd-movable:last-child .pafd-move_down {
+	display: none;
+}
+.pafd-movable input[type=checkbox],
+.pafd-movable input[type=radio] {
+	display: none;
+}
+#pafd-revisions thead {
+	background: #DEDEDE;
+}
+
+#pafd-revisions tbody td {
+	background: #FFF;
+	border-bottom: solid 1px #DEDEDE;
+	border-top: solid 1px #DEDEDE;
+	cursor: pointer;
+}
+
+#pafd-revisions tbody tr.pafd-current-revision td {
+	background: #CFC;
+}
+#pafd-revisions tbody tr:not(.pafd-current-revision) td {
+	background: #EEE;
+	opacity: .5;
+	transition: all .4s;
+}
+#pafd-revisions tbody tr.pafd-current-revision .pafd-restore-link {
+	display: none;
+}
+
+#pafd-revisions tbody tr:not(.pafd-current-revision):hover td {
+	background: #FFF;
+	opacity: 1;
+}
+
+#pafd-revisions tbody tr:not(.pafd-current-revision) .button {
+	display: none;
+}
+
+#pafd-revisions tbody tr:not(.pafd-current-revision):hover .button {
+	display: inline;
+}
+#pafd-editor-button-open {
+	width: 105px;
+}
